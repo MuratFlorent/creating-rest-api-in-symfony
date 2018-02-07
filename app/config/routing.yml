@@ -12,3 +12,14 @@ movies_post:
     defaults:
         _controller: AppBundle\Controller\MoviesController:postMoviesAction
         _format: json
+
+users:
+    type: rest
+    resource: AppBundle\Controller\UsersController
+
+users_post:
+    path: /users
+    methods: [POST]
+    defaults:
+        _controller: AppBundle\Controller\UsersController:postUsersAction
+        _format: json
