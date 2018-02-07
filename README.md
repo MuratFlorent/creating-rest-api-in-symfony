@@ -1,4 +1,8 @@
 movies
 ======
 
-A Symfony project created on January 26, 2018, 5:41 pm.
+php 7 / mysql / symfony 3.4.3
+
+Basic REST operations
+Data validation and relations
+Modifying resources
